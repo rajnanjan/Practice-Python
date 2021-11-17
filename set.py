@@ -26,7 +26,12 @@
 # print(common_no)
 # print(common_no)
 """ 7. Write a Python program to create a union of set"""
+# roll_no = {1, 2, 3, 4, 5, 6, 7, 8}
+# rank_no ={12, 4, 6, 7, 3, 4}
+# common_no = roll_no.union(rank_no)
+# print(common_no)
+""" 8. Write a Python program to create set difference."""
 roll_no = {1, 2, 3, 4, 5, 6, 7, 8}
-rank_no ={12, 4, 6, 7, 3, 4}
-common_no = roll_no.union(rank_no)
-print(common_no)
+rank_no = {1, 2, 4, 6, 7, 3}
+num = roll_no.difference(rank_no)
+print(num)
