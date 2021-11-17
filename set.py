@@ -15,7 +15,14 @@
 # values = {"apple", "orange", "mango"}
 # values.remove("mango")
 # print(values)
-""" 5. Write a Python program to remove an item from a set if it is present in the set. """
-num = {1, 4, 5, 8, 6, 56, 78}
-num.discard(56)
-print(num)
+# """ 5. Write a Python program to remove an item from a set if it is present in the set. """
+# num = {1, 4, 5, 8, 6, 56, 78}
+# num.discard(56)
+# print(num)
+""" 6. Write a Python program to create an intersection of sets."""
+roll_no = {1, 2, 3, 4, 5, 6, 7, 8}
+rank_no ={12, 4, 6, 7, 3, 4}
+common_no = roll_no.intersection(rank_no)
+print(common_no)
+print(common_no)
+
