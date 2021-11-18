@@ -24,9 +24,18 @@
 # un_num.sort()
 # print("After removing duplicates from list:",un_num)
 """ 5. Write a Python program to clone or copy a list. """
-num = [3, 5, 6, 7, 2, 3, 13, 56, 2, 5, 7]
-new_num = num.copy()
-print(new_num)
-
+# num = [3, 5, 6, 7, 2, 3, 13, 56, 2, 5, 7]
+# new_num = num.copy()
+# print(new_num)
+""" 6. Write a Python function that takes two lists and returns True 
+if they have at least one common member."""
+num1 = [3, 5, 6, 7, 2]
+num2 = [8, 9, 10, 12, 7]
+for i in num1:
+    if i in num2:
+        print("true")
+        break
+else:
+    print("both list are different ")
 
 
