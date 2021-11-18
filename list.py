@@ -40,12 +40,15 @@ if they have at least one common member."""
 """ 7. Write a Python program to print a specified list after removing the 0th, 4th and 5th elements. 
 Sample List : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow'] 
 Expected Output : ['Green', 'White', 'Black']"""
-colors = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-colors.pop(0)
-colors.pop(4)
-colors.pop()
-print(colors)
-
-
-
+# colors = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+# colors.pop(0)
+# colors.pop(4)
+# colors.pop()
+# print(colors)
+""" 8.Write a Python program to append a list to the second list."""
+num = [4, 5, 6, 7, 8, 9]
+num2 = [4, 6, 7, 8, 3, 1, 10]
+num.append(num2)
+print(num)
+print(num2)
 
