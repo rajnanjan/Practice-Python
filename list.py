@@ -15,14 +15,18 @@
 # print("The smallest number in list :", min(num))
 # print("The highest number in list :", max(num))
 """ 4. Write a Python program to remove duplicates from a list."""
+# num = [3, 5, 6, 7, 2, 3, 13, 56, 2, 5, 7]
+# print("The original list :",num)
+# un_num = []
+# for i in num:
+#     if i not in un_num:
+#         un_num.append(i)
+# un_num.sort()
+# print("After removing duplicates from list:",un_num)
+""" 5. Write a Python program to clone or copy a list. """
 num = [3, 5, 6, 7, 2, 3, 13, 56, 2, 5, 7]
-print("The original list :",num)
-un_num = []
-for i in num:
-    if i not in un_num:
-        un_num.append(i)
-un_num.sort()
-print("After removing duplicates from list:",un_num)
+new_num = num.copy()
+print(new_num)
 
 
 
