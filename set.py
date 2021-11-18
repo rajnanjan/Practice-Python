@@ -31,7 +31,15 @@
 # common_no = roll_no.union(rank_no)
 # print(common_no)
 """ 8. Write a Python program to create set difference."""
-roll_no = {1, 2, 3, 4, 5, 6, 7, 8}
-rank_no = {1, 2, 4, 6, 7, 3}
-num = roll_no.difference(rank_no)
+# roll_no = {1, 2, 3, 4, 5, 6, 7, 8}
+# rank_no = {1, 2, 4, 6, 7, 3}
+# num = roll_no.difference(rank_no)
+# print(num)
+""" 9. Write a Python program to create a symmetric difference."""
+roll_no = {1, 2, 3, 4, 5, 6}
+rank_no = {3, 5, 7, 6, 8, 9, 13}
+num = roll_no.symmetric_difference(rank_no)
 print(num)
+print(type(num))
+
+
