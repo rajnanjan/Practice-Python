@@ -36,10 +36,15 @@
 # num = roll_no.difference(rank_no)
 # print(num)
 """ 9. Write a Python program to create a symmetric difference."""
+# roll_no = {1, 2, 3, 4, 5, 6}
+# rank_no = {3, 5, 7, 6, 8, 9, 13}
+# num = roll_no.symmetric_difference(rank_no)
+# print(num)
+# print(type(num))
+""" 10. Write a Python program to clear a set."""
 roll_no = {1, 2, 3, 4, 5, 6}
 rank_no = {3, 5, 7, 6, 8, 9, 13}
-num = roll_no.symmetric_difference(rank_no)
-print(num)
-print(type(num))
-
+roll_no.clear()
+print(roll_no)
+print(type(roll_no))
 
