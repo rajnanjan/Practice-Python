@@ -42,9 +42,18 @@
 # print(num)
 # print(type(num))
 """ 10. Write a Python program to clear a set."""
-roll_no = {1, 2, 3, 4, 5, 6}
-rank_no = {3, 5, 7, 6, 8, 9, 13}
-roll_no.clear()
-print(roll_no)
-print(type(roll_no))
-
+# roll_no = {1, 2, 3, 4, 5, 6}
+# rank_no = {3, 5, 7, 6, 8, 9, 13}
+# roll_no.clear()
+# print(roll_no)
+# print(type(roll_no))
+""" 11. Write a Python program to use of frozenset."""
+# roll_no = {1, 2, 3, 4, 5, 6}
+# rank_no = {3, 5, 7, 6, 8, 9, 13}
+# f_roll_no = frozenset(rank_no)
+# print(f_roll_no)
+# print(type(f_roll_no))
+""" 12. Write a Python program to find maximum and the minimum value in a set."""
+# roll_no = {32, 45, 64, 75, 2, 3, 5, 7, 3,}
+# print(max(roll_no))
+# print(min(roll_no))
