@@ -29,13 +29,23 @@
 # print(new_num)
 """ 6. Write a Python function that takes two lists and returns True 
 if they have at least one common member."""
-num1 = [3, 5, 6, 7, 2]
-num2 = [8, 9, 10, 12, 7]
-for i in num1:
-    if i in num2:
-        print("true")
-        break
-else:
-    print("both list are different ")
+# num1 = [3, 5, 6, 7, 2]
+# num2 = [8, 9, 10, 12,7]
+# for i in num1:
+#     if i in num2:
+#         print("true")
+#         break
+# else:
+#     print("both list are different ")
+""" 7. Write a Python program to print a specified list after removing the 0th, 4th and 5th elements. 
+Sample List : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow'] 
+Expected Output : ['Green', 'White', 'Black']"""
+colors = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+colors.pop(0)
+colors.pop(4)
+colors.pop()
+print(colors)
+
+
 
 
