@@ -46,9 +46,16 @@ Expected Output : ['Green', 'White', 'Black']"""
 # colors.pop()
 # print(colors)
 """ 8.Write a Python program to append a list to the second list."""
+# num = [4, 5, 6, 7, 8, 9]
+# num2 = [4, 6, 7, 8, 3, 1, 10]
+# num.append(num2)
+# print(num)
+# print(num2)
+""" 9.Write a Python program to find common items from two lists."""
 num = [4, 5, 6, 7, 8, 9]
 num2 = [4, 6, 7, 8, 3, 1, 10]
-num.append(num2)
-print(num)
-print(num2)
-
+num3 = []
+for i in num:
+    if i in num2:
+        num3.append(i)
+print(num3)
