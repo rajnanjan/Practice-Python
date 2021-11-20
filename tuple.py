@@ -6,8 +6,18 @@
 # values = (1, 45.8, "raj", True)
 # print(values)
 """ 3. Write a Python program to unpack a tuple in several variables."""
-num = [1, 2, 5, 58]
-(n1, n2, n3, n4) = num
-print(n1, n2, n3, n4)
+# num = [1, 2, 5, 58]
+# (n1, n2, n3, n4) = num
+# print(n1, n2, n3, n4)
+""" 4. Write a Python program to find the repeated items of a tuple."""
+num = [3, 5, 6, 7, 2, 3, 13, 56, 2, 5, 7]
+repeated_value = []
+for i in num:
+    if num.count(i) > 1:
+        if i not in repeated_value:
+            repeated_value.append(i)
+print(repeated_value)
+
+
 
 
