@@ -28,10 +28,16 @@ Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}"""
 # print(dic4)
 """ 4. Write a Python program to iterate over dictionaries using for loops."""
 """ 6. Write a Python program to remove a key from a dictionary."""
-marks = {"tamil": 56, "english": 89, "maths": 63, "science": 78, "social science": 63, "pt": 76}
-if "pt" in marks:
-    marks.pop("pt")
-print(marks)
+# marks = {"tamil": 56, "english": 89, "maths": 63, "science": 78, "social science": 63, "pt": 76}
+# if "pt" in marks:
+#     marks.pop("pt")
+# print(marks)
+""" 7. Write a Python program to print all unique values in a dictionary."""
+# scores = {"raj": 85, "mani": 98, "sachin": 90, "manoj": 85, "sid": 98}
+# u_scores = set()
+# for i in scores.values():
+#     u_scores.add(i)
+# print(u_scores)
 
 
 
