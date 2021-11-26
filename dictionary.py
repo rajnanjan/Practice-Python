@@ -19,10 +19,19 @@ dic1={1:10, 2:20}
 dic2={3:30, 4:40} 
 dic3={5:50,6:60} 
 Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}"""
-dic1 = {1: 10, 2: 20}
-dic2 = {3: 30, 4: 40}
-dic3 = {5: 50, 6: 60}
-dic4 = {}
-for i in dic1, dic2, dic3:
-    dic4.update(i)
-print(dic4)
+# dic1 = {1: 10, 2: 20}
+# dic2 = {3: 30, 4: 40}
+# dic3 = {5: 50, 6: 60}
+# dic4 = {}
+# for i in dic1, dic2, dic3:
+#     dic4.update(i)
+# print(dic4)
+""" 4. Write a Python program to iterate over dictionaries using for loops."""
+""" 6. Write a Python program to remove a key from a dictionary."""
+marks = {"tamil": 56, "english": 89, "maths": 63, "science": 78, "social science": 63, "pt": 76}
+if "pt" in marks:
+    marks.pop("pt")
+print(marks)
+
+
+
