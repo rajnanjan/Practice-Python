@@ -57,20 +57,23 @@ that input back in upper and lower cases."""
 # print("Given name is upper case :", name.upper())
 # print("given name is lower case :", name.lower())
 
-""" 7. Write a Python program that accepts a comma separated sequence of words as input and prints the unique words in sorted form (alphanumerically). 
+""" 7. Write a Python program that accepts a comma separated sequence 
+of words as input and prints the unique words in sorted form (alphanumerically). 
 Sample Words : red, white, black, red, green, black 
 Expected Result : black, green, red, white,red """
-
-colours = input("Enter the colours with comma:")
-u_colors = []
-for i in colours.split(","):
-    if i not in u_colors:
-        u_colors.append(i)
-u_colors.sort()
-print(u_colors)
-
-
-
+# colours = input("Enter the colours with comma:")
+# u_colors = []
+# for i in colours.split(","):
+#     if i not in u_colors:
+#         u_colors.append(i)
+# u_colors.sort()
+# print(u_colors)
+""" 11. Write a Python program to reverse a string."""
+name = "reverse"
+re_name = ""
+for i in name:
+    re_name = i + re_name
+print(re_name)
 
 
 
