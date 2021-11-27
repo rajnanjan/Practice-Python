@@ -34,12 +34,29 @@ Expected Result : 'abcing'
 Sample String : 'string' 
 Expected Result : 'stringly'"""
 
-name = input("Enter the word :")
-if len(name) > 2:
-    if name[-3:] == "ing":
-        name += "ly"
-    else:
-        name += "ing"
+# name = input("Enter the word :")
+# if len(name) > 2:
+#     if name[-3:] == "ing":
+#         name += "ly"
+#     else:
+#         name += "ing"
+
+""" 5. Write a Python function that takes a list of words and returns the length of the longest one."""
+# names = ["raj", "siddaraj", "manoj", "mani", "sachinlokesh", "ramkrishnabalasubramanyan"]
+# len_names = []
+# for name in names:
+#     len_names.append(len(name))
+# len_names.sort()
+# print(len_names)
+# print("the longest one:", len_names[-1])
+
+""" 6. Write a Python script that takes input from the user and displays 
+that input back in upper and lower cases."""
+
+name = input("Enter the name :")
+print("Given name is upper case :", name.upper())
+print("given name is lower case :", name.lower())
+
 
 
 
