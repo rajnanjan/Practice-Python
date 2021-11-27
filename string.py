@@ -52,11 +52,22 @@ Expected Result : 'stringly'"""
 
 """ 6. Write a Python script that takes input from the user and displays 
 that input back in upper and lower cases."""
+#
+# name = input("Enter the name :")
+# print("Given name is upper case :", name.upper())
+# print("given name is lower case :", name.lower())
 
-name = input("Enter the name :")
-print("Given name is upper case :", name.upper())
-print("given name is lower case :", name.lower())
+""" 7. Write a Python program that accepts a comma separated sequence of words as input and prints the unique words in sorted form (alphanumerically). 
+Sample Words : red, white, black, red, green, black 
+Expected Result : black, green, red, white,red """
 
+colours = input("Enter the colours with comma:")
+u_colors = []
+for i in colours.split(","):
+    if i not in u_colors:
+        u_colors.append(i)
+u_colors.sort()
+print(u_colors)
 
 
 
