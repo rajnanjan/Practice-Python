@@ -12,10 +12,22 @@ Output :
 List : ['3', ' 5', ' 7', ' 23'] 
 Tuple : ('3', ' 5', ' 7', ' 23') """
 
-data = input("Enter the Numbers:")
-num = data.split(",")
-num_tuple = tuple(num)
-print(num)
-print(num_tuple)
-print(type(num))
-print(type(num_tuple))
+# data = input("Enter the Numbers:")
+# num = data.split(",")
+# num_tuple = tuple(num)
+# print(num)
+# print(num_tuple)
+# print(type(num))
+# print(type(num_tuple))
+""" 3. Write a Python program to display the first and last colors 
+from the following list. color_list = ["Red","Green","White" ,"Black"]"""
+
+colors = input("enter the colors name with comma :")
+
+print("given colors:      ", colors)
+given_colors = colors.split(",")
+print("The first color is :   ", given_colors[0])
+print("The last color is :    ", given_colors[-1])
+
+
+
