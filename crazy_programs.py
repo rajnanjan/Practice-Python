@@ -21,13 +21,26 @@ Tuple : ('3', ' 5', ' 7', ' 23') """
 # print(type(num_tuple))
 """ 3. Write a Python program to display the first and last colors 
 from the following list. color_list = ["Red","Green","White" ,"Black"]"""
+#
+# colors = input("enter the colors name with comma :")
+#
+# print("given colors:      ", colors)
+# given_colors = colors.split(",")
+# print("The first color is :   ", given_colors[0])
+# print("The last color is :    ", given_colors[-1])
 
-colors = input("enter the colors name with comma :")
 
-print("given colors:      ", colors)
-given_colors = colors.split(",")
-print("The first color is :   ", given_colors[0])
-print("The last color is :    ", given_colors[-1])
+a = [1, 8, 4, 6, 9, 0, 3, 5]
 
 
+def find_the_index(li):
+    length = len(li)
+    for i in range(length):
+        if li[i] == 9:
+            return i
 
+    print("Hello world")
+
+
+result = find_the_index(a)
+print(result)
