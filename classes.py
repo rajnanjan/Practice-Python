@@ -26,18 +26,25 @@
 # print(benz.moving())
 # print(maruthi.moving())
 
-class employee:
-    company_name = "CAFS"
+# class employee:
+#     company_name = "CAFS"
+#
+#     def __init__(self, e_name, e_age, e_dig):
+#         self.e_name = e_name
+#         self.e_age = e_age
+#         self.e_dig = e_dig
+#
+#     def working(self, company_name=None):
+#         print(self.e_name, " is working in ", company_name)
+#
+#
+# raj = employee(e_name="raj", e_age=26, e_dig="RM")
+#
+# raj.working("cafs")
 
-    def __init__(self, e_name, e_age, e_dig):
-        self.e_name = e_name
-        self.e_age = e_age
-        self.e_dig = e_dig
+a = int(input("enter the number :"))
+print(type(a))
+b = 13
+c = a + b
+print(c, type(c))
 
-    def working(self, company_name=None):
-        print(self.e_name, " is working in ", company_name)
-
-
-raj = employee(e_name="raj", e_age=26, e_dig="RM")
-
-raj.working("cafs")s
