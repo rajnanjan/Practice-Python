@@ -93,3 +93,11 @@ odd_num = filter(is_add, num)
 print(list(odd_num))
 
 
+def square_num(num):
+    return num * num
+
+
+square = map(square_num, num)
+print(num)
+print(list(square))
+
