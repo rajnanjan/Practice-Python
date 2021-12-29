@@ -28,6 +28,7 @@
 # dict1 = {key: value for key, value in enumerate(names)}
 #
 # print(dict1)
+# from Tools.scripts.mailerdaemon import x
 
 '''Filter , Map, Reduce'''
 # filter()
@@ -100,4 +101,10 @@ def square_num(num):
 square = map(square_num, num)
 print(num)
 print(list(square))
+
+"1 Find all of the numbers from 1–1000 that are divisible by 8"
+
+list1 = [i for i in range(1, 1000) if i % 8 == 0]
+print(list1)
+
 
