@@ -73,3 +73,24 @@ list2 = [1, 2, 3, 4, 5]
 
 dic2 = {k: v for (k, v) in zip(list1, list2)}
 print(dic2)
+
+""" First, create a range from 100 to 160 with steps of 10.
+
+
+Second, using dict comprehension, create a dictionary where each number in the range is the key
+ and each item divided by 100 is the value."""
+
+dic1 = {i: i / 100 for i in range(100, 160, 10)}
+
+print(dic1)
+
+""" Using dict comprehension and a conditional argument 
+create a dictionary from the current dictionary where only the key:value pairs
+ with value above 2000 are taken to the new dictionary."""
+
+dic1 = {"tcs": 3884.75, "reliance": 2458, "hdfc": 1528, "hindusthan}": 2401}
+dic2 = {i: dic1[i] for i in dic1 if dic1[i] > 2000}
+print(dic2)
+
+dic3 = {i: dic1[i] for i in dic1 if dic1[i] < 2000}
+print(dic3)
