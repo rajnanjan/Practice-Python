@@ -34,7 +34,14 @@ the first and last colors from the following list. color_list = ["Red","Green","
 #         break
 # else:
 #     print("given number is not in the list ")
-""" 1. Write a Python program to sum all the items in a list. """
+
+
+name = "raj nanjan"
+result = ""
+for i in range(len(name) - 1, -1, -1):
+    result = result + name[i]
+
+print(result)
 
 
 
